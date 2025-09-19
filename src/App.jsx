@@ -8,7 +8,7 @@ const DATA = {
   jobMarket: "I am on the 2025–2026 job market.",
   bio: `Welcome! My name is Haoqi Tong, and I am a PhD candidate at Department of Economics, Duke University. I received my M.A. in Economics from Duke University and B.A. in Economics and Finance from Tsinghua University.
 
-I am a microeconomics theorist, and my research focuses on theoretical matching, market design and school choice.`,
+I am a microeconomics theorist, and my research focuses on matching theory and economic of education.`,
   email: "haoqi.tong@duke.edu",
   addressLines: [
     "Duke University Department of Economics",
