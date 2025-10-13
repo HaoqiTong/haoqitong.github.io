@@ -109,7 +109,7 @@ function HomePage() {
       <Container>
         <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-[12rem_1fr] lg:grid-cols-[14rem_1fr]">
           <div>
-            <div className="w-40 md:w-48 lg:w-56 rounded-2xl border border-neutral-200 bg-neutral-100">
+            <div className="w-36 md:w-44 lg:w-52 rounded-2xl border border-neutral-200 bg-neutral-100">
               <img
                 src={DATA.headshotSrc}
                 alt="Haoqi Tong"
