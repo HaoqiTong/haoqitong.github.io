@@ -107,25 +107,28 @@ function HomePage() {
   return (
     <div className="border-b border-neutral-200 bg-white py-10">
       <Container>
-        <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-[12rem_1fr] lg:grid-cols-[14rem_1fr]">
-          <div>
-            <div className="w-36 md:w-44 lg:w-52 rounded-2xl border border-neutral-200 bg-neutral-100">
+        <div className="flex flex-col md:flex-row items-start gap-6">
+          {/* Left: photo column (fixed width, no crop) */}
+          <div className="shrink-0 w-36 md:w-44 lg:w-52">
+            <div className="rounded-2xl border border-neutral-200 bg-neutral-100 overflow-hidden">
               <img
                 src={DATA.headshotSrc}
                 alt="Haoqi Tong"
-                className="w-full h-auto object-contain rounded-2xl"
+                className="block w-full h-auto object-contain"
                 loading="lazy"
                 decoding="async"
               />
             </div>
           </div>
-          <div>
+
+          {/* Right: text column */}
+          <div className="min-w-0">
             <h1 className="text-3xl font-extrabold tracking-tight">{DATA.name}</h1>
             <p className="mt-1 text-sm text-neutral-700">{DATA.role}</p>
             <p className="mt-3 whitespace-pre-line text-[15px] leading-relaxed text-neutral-800">{DATA.bio}</p>
             <p className="mt-3 text-[15px] font-medium text-neutral-900">{DATA.jobMarket}</p>
           </div>
-        </div>
+        </div>        
       </Container>
     </div>
   );
