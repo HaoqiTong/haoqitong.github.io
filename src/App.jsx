@@ -24,7 +24,7 @@ I am a microeconomics theorist, and my research focuses on matching theory and e
         authors: "Haoqi Tong",
         status: "Working paper",
         note: "Job Market Paper",
-        links: [{ label: "PDF version", href: "/Haoqi_Tong_JMP_draft.pdf" }],
+        links: [{ label: "PDF", href: "/Haoqi_Tong_JMP_draft.pdf" }],
         abstract: "Abstract: We study optimal subsidy design in one-to-one matching markets with budget constraints. Under complete information about match values, we provide an algorithm that computes the minimal subsidies required to implement the welfare-maximizing matching. Under incomplete information, the planner observes only the status quo stable matching (but not the underlying match values). Departing from a mechanism-design approach, we consider robust subsidy policies that improve outcomes without any preference elicitation. The central result delivers conditions under which a subsidy allocation guarantees a weakly better stable matching for every profile of match values consistent with the observed outcome. Intuitively, subsidies induce both direct and spillover effects; any subsidy policy that fails to adequately cover these effects can potentially generate new blocking and thereby reduce welfare relative to the observed outcome."
       },
       {
@@ -32,7 +32,7 @@ I am a microeconomics theorist, and my research focuses on matching theory and e
         authors: "with Atila Abdulkadiroglu, Adam M. Rosen",
         status: "Working paper",
         note: [],
-        links: [{ label: "PDF version coming soon", href: "javascript:void(0)", comingSoon: true }],
+        links: [{ label: "PDF coming soon", href: "javascript:void(0)", comingSoon: true }],
         abstract: "Abstract coming soon"
       },
       {
@@ -51,7 +51,7 @@ I am a microeconomics theorist, and my research focuses on matching theory and e
         status: "Published",
         note: "Originates from my undergraduate thesis at Tsinghua University.",
         links: [
-          { label: "PDF version", href: "/Ex-ante fairness under constrained school choice An experimental approach.pdf" }
+          { label: "PDF", href: "/Ex-ante fairness under constrained school choice An experimental approach.pdf" }
         ]
       }
     ],
