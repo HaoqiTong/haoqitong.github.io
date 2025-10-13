@@ -24,8 +24,8 @@ I am a microeconomics theorist, and my research focuses on matching theory and e
         authors: "Haoqi Tong",
         status: "Working paper",
         note: "Job Market Paper",
-        links: [{ label: "PDF coming soon", href: "javascript:void(0)", comingSoon: true }],
-        abstract: "Abstract: I study subsidy design in one-to-one matching with budget constraints. When the social planner has complete information about match values, I provide an algorithm that computes the minimum total subsidy required to implement the utilitarian first-best matching. When the planner has incomplete information, departing from mechanism design, I focus on robust policies that improve outcomes without eliciting private preferences. My central result provides conditions, based solely on the observed matching outcome, under which any subsidy allocation satisfying these conditions guarantees a weakly better matching for every consistent match value profile."
+        links: [{ label: "PDF", href: "/Haoqi_Tong_JMP_draft.pdf" }],
+        abstract: "Abstract: We study optimal subsidy design in one-to-one matching markets with budget constraints. Under complete information about match values, we provide an algorithm that computes the minimal subsidies required to implement the welfare-maximizing matching. Under incomplete information, the planner observes only the status quo stable matching (but not the underlying match values). Departing from a mechanism-design approach, we consider robust subsidy policies that improve outcomes without any preference elicitation. The central result delivers conditions under which a subsidy allocation guarantees a weakly better stable matching for every profile of match values consistent with the observed outcome. Intuitively, subsidies induce both direct and spillover effects; any subsidy policy that fails to adequately cover these effects can potentially generate new blocking and thereby reduce welfare relative to the observed outcome."
       },
       {
         title: "Rank Order Choice Modeling with Latent Consideration Sets",
@@ -40,9 +40,6 @@ I am a microeconomics theorist, and my research focuses on matching theory and e
         authors: "Haoqi Tong",
         status: "Working paper",
         note: [],
-        links: [
-          { label: "PDF version", href: "/Career concern model with voluntary information disclosure.pdf" }
-        ],
         abstract: "Abstract: When an educational institution requires voluntary disclosure of test scores, what is the best way for a student to utilize their score? How does this strategic conduct influence the motivation to invest in ability? I study a career-concern model with voluntary disclosure and show that the optimal disclosure rule follows a threshold strategy in equilibrium. This strategic channel reduces incentives to invest in ability at the first stage."
       }
     ],
