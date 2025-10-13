@@ -107,10 +107,16 @@ function HomePage() {
   return (
     <div className="border-b border-neutral-200 bg-white py-10">
       <Container>
-        <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-[160px_1fr]">
+        <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-[14rem_1fr]">
           <div>
-            <div className="aspect-square w-40 overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-100">
-              <img src={DATA.headshotSrc} alt="Haoqi Tong" className="h-full w-full object-cover" />
+            <div className="w-48 md:w-56 max-h-64 overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-100">
+              <img
+                src={DATA.headshotSrc}
+                alt="Haoqi Tong"
+                className="h-auto w-full object-contain"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
           </div>
           <div>
