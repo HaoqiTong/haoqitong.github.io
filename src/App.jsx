@@ -107,13 +107,13 @@ function HomePage() {
   return (
     <div className="border-b border-neutral-200 bg-white py-10">
       <Container>
-        <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-[14rem_1fr]">
+        <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-[12rem_1fr] lg:grid-cols-[14rem_1fr]">
           <div>
-            <div className="w-56 md:w-64 rounded-2xl border border-neutral-200 bg-neutral-100">
+            <div className="w-40 md:w-48 lg:w-56 rounded-2xl border border-neutral-200 bg-neutral-100">
               <img
                 src={DATA.headshotSrc}
                 alt="Haoqi Tong"
-                className="w-full h-auto rounded-2xl object-contain"
+                className="w-full h-auto object-contain rounded-2xl"
                 loading="lazy"
                 decoding="async"
               />
