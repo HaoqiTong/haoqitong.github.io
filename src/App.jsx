@@ -6,16 +6,16 @@ const DATA = {
   name: "Haoqi Tong",
   role: "PhD Candidate, Department of Economics, Duke University",
   jobMarket: "I am on the 2025–2026 job market.",
-  bio: `Welcome! My name is Haoqi Tong, and I am a PhD candidate at Department of Economics, Duke University. I received my M.A. in Economics from Duke University and B.A. in Economics and Finance from Tsinghua University.
+  bio: `Welcome! My name is Haoqi Tong, and I am a PhD candidate in the Department of Economics at Duke University. I received my M.A. in Economics from Duke University and B.A. in Economics and Finance from Tsinghua University.
 
-I am a microeconomics theorist, and my research focuses on matching theory and economic of education.`,
+I am a microeconomic theorist, and my research focuses on matching theory and the economics of education.`,
   email: "haoqi.tong@duke.edu",
   addressLines: [
     "Duke University Department of Economics",
     "213 Social Sciences, 419 Chapel Drive",
     "Durham, NC 27708-0097",
   ],
-  cvHref: "/Haoqi_Tong_CV.pdf",
+  cvHref: "/Haoqi_Tong_CV_2025.pdf",
   headshotSrc: "/photo.jpg",
   research: {
     working: [
@@ -24,7 +24,7 @@ I am a microeconomics theorist, and my research focuses on matching theory and e
         authors: "Haoqi Tong",
         status: "Working paper",
         note: "Job Market Paper",
-        links: [{ label: "PDF", href: "/Haoqi_Tong_JMP_draft.pdf" }],
+        links: [{ label: "PDF", href: "/Haoqi_Tong_JMP.pdf" }],
         abstract: "Abstract: We study optimal subsidy design in one-to-one matching markets with budget constraints. Under complete information about match values, we provide an algorithm that computes the minimal subsidies required to implement the welfare-maximizing matching. Under incomplete information, the planner observes only the status quo stable matching (but not the underlying match values). Departing from a mechanism-design approach, we consider robust subsidy policies that improve outcomes without any preference elicitation. The central result delivers conditions under which a subsidy allocation guarantees a weakly better stable matching for every profile of match values consistent with the observed outcome. Intuitively, subsidies induce both direct and spillover effects; any subsidy policy that fails to adequately cover these effects can potentially generate new blocking and thereby reduce welfare relative to the observed outcome."
       },
       {
