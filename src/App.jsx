@@ -56,6 +56,41 @@ I am a microeconomic theorist, and my research focuses on matching theory and th
       }
     ],
   },
+  teaching: {
+    instructor: [
+      {
+        role: "Instructor",
+        course:
+          "ECON 104 — Statistical Foundations of Econometrics and Data Science",
+        level: "Undergraduate Core",
+        institution: "Duke University",
+        term: "Summer 2024",
+      },
+    ],
+    ta: [
+      {
+        role: "Teaching Assistant",
+        course: "ECON 205 — Intermediate Microeconomics",
+        level: "Undergraduate Core",
+        institution: "Duke University",
+        term: "2023–2024",
+      },
+      {
+        role: "Teaching Assistant",
+        course: "ECON 701/705 — Microeconomic Analysis I/II",
+        level: "Ph.D. Core",
+        institution: "Duke University",
+        term: "2021–2022",
+      },
+      {
+        role: "Teaching Assistant",
+        course: "Principles of Economics",
+        level: "Undergraduate Core",
+        institution: "Tsinghua University",
+        term: "2017–2018",
+      },
+    ],
+  },
 };
 
 // ===== UI primitives =====
@@ -159,6 +194,54 @@ function ResearchPage() {
   );
 }
 
+// ===== Teaching =====
+const TeachItem = ({ item }) => (
+  <div className="rounded-xl border border-neutral-200 bg-white p-4 shadow-sm">
+    <div className="flex flex-wrap items-baseline justify-between gap-2">
+      <h3 className="text-base font-semibold">{item.course}</h3>
+      <span className="text-xs tracking-wide text-neutral-600">{item.term}</span>
+    </div>
+    <div className="mt-1 text-sm text-neutral-700">
+      {item.role} · {item.level}
+    </div>
+    <div className="mt-1 text-sm text-neutral-700">{item.institution}</div>
+  </div>
+);
+
+function TeachingPage() {
+  const hasInstructor = DATA.teaching?.instructor?.length > 0;
+  const hasTA = DATA.teaching?.ta?.length > 0;
+
+  return (
+    <Container>
+      <Section title="Teaching">
+        {hasInstructor && (
+          <>
+            <h3 className="mb-3 text-base font-semibold tracking-tight">Instructor</h3>
+            <div className="space-y-4">
+              {DATA.teaching.instructor.map((t) => (
+                <TeachItem key={t.course + t.term} item={t} />
+              ))}
+            </div>
+          </>
+        )}
+
+        {hasTA && (
+          <div className="mt-8">
+            <h3 className="mb-3 text-base font-semibold tracking-tight">Teaching Assistant</h3>
+            <div className="space-y-4">
+              {DATA.teaching.ta.map((t) => (
+                <TeachItem key={t.course + t.term} item={t} />
+              ))}
+            </div>
+          </div>
+        )}
+      </Section>
+    </Container>
+  );
+}
+
+
 function ContactPage() {
   return (
     <Container>
@@ -178,7 +261,6 @@ function ContactPage() {
   );
 }
 
-// ===== Layout & App =====
 function Header() {
   const activeClass = ({ isActive }) =>
     "text-sm font-medium " + (isActive ? "text-black" : "text-neutral-800 hover:opacity-70");
@@ -196,6 +278,9 @@ function Header() {
             </NavLink>
             <NavLink to="/research" className={activeClass}>
               Research
+            </NavLink>
+            <NavLink to="/teaching" className={activeClass}>
+              Teaching
             </NavLink>
             <a href={DATA.cvHref} className="text-sm font-medium text-neutral-800 hover:opacity-70">
               CV
@@ -218,6 +303,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/research" element={<ResearchPage />} />
+          <Route path="/teaching" element={<TeachingPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <footer className="border-t border-neutral-200 bg-white py-6 text-center text-xs text-neutral-500">
