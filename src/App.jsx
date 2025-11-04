@@ -65,6 +65,11 @@ I am a microeconomic theorist, and my research focuses on matching theory and th
         level: "Undergraduate Core",
         institution: "Duke University",
         term: "Summer 2024",
+        links: [
+          { label: "Syllabus", href: "/Syllabus.pdf" },
+          { label: "Sample Slides", href: "/Lecture 3.pdf" },
+          { label: "Course Evaluations", href: "/ECON 104 Course Evaluations.pdf" },
+        ],
       },
     ],
     ta: [
@@ -194,7 +199,6 @@ function ResearchPage() {
   );
 }
 
-// ===== Teaching =====
 const TeachItem = ({ item }) => (
   <div className="rounded-xl border border-neutral-200 bg-white p-4 shadow-sm">
     <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -205,8 +209,26 @@ const TeachItem = ({ item }) => (
       {item.role} · {item.level}
     </div>
     <div className="mt-1 text-sm text-neutral-700">{item.institution}</div>
+
+    {/* === NEW: Add links if present === */}
+    {item.links?.length > 0 && (
+      <div className="mt-3 flex flex-wrap gap-3 text-sm">
+        {item.links.map((l) => (
+          <a
+            key={l.href}
+            href={l.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline text-blue-700 hover:no-underline"
+          >
+            [{l.label}]
+          </a>
+        ))}
+      </div>
+    )}
   </div>
 );
+
 
 function TeachingPage() {
   const hasInstructor = DATA.teaching?.instructor?.length > 0;
