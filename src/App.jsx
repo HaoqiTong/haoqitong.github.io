@@ -78,7 +78,7 @@ I am a microeconomic theorist, and my research focuses on matching theory and th
         course: "ECON 205 — Intermediate Microeconomics",
         level: "Undergraduate Core",
         institution: "Duke University",
-        term: "2023–2024",
+        term: "2024–2025",
       },
       {
         role: "Teaching Assistant",
