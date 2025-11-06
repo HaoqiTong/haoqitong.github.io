@@ -15,7 +15,7 @@ I am a microeconomic theorist, and my research focuses on matching theory and th
     "213 Social Sciences, 419 Chapel Drive",
     "Durham, NC 27708-0097",
   ],
-  cvHref: "https://www.dropbox.com/scl/fi/f17hu8scj42t6pj856xsp/Haoqi_Tong_CV_2025.pdf?rlkey=atmjc23acfrfz1k3gvk3k3cuw&raw=1",
+  cvHref: "/Haoqi_Tong_CV_2025.pdf",
   headshotSrc: "/photo.jpg",
   research: {
     working: [
