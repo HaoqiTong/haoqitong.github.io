@@ -30,15 +30,15 @@ I am a microeconomic theorist, and my research focuses on matching theory and th
       {
         title: "Rank Order Choice Modeling with Latent Consideration Sets",
         authors: "with Atila Abdulkadiroglu, Adam M. Rosen",
-        status: "Working paper",
+        status: "Work in progress",
         note: [],
         links: [{ label: "PDF coming soon", href: "javascript:void(0)", comingSoon: true }],
-        abstract: "Abstract coming soon"
+        abstract: "This paper introduces a model of rank order choice in which each individual submits a ranking of alternatives from an unobservable individual-specific consideration set. The rankings obey individual preferences among those alternatives that are considered, but rankings are silent as to those alternatives which are not considered. Sufficient conditions for point identification are provided for a fully parametric specification of consideration set formation and random utility, leveraging information about individuals' default options. A moment-based estimator is proposed using ranking probability for individual options and pairs of options. Monte Carlo simulations demonstrate favorable performance of this moment-based estimator relative to previously developed models that use ranking information but do not account for heterogeneity in unobservable consideration sets."
       },
       {
         title: "Career Concern Model with Voluntary Information Disclosure",
         authors: "Haoqi Tong",
-        status: "Working paper",
+        status: "Working paper, draft available upon request",
         note: [],
         abstract: "Abstract: When an educational institution requires voluntary disclosure of test scores, what is the best way for a student to utilize their score? How does this strategic conduct influence the motivation to invest in ability? I study a career-concern model with voluntary disclosure and show that the optimal disclosure rule follows a threshold strategy in equilibrium. This strategic channel reduces incentives to invest in ability at the first stage."
       }
