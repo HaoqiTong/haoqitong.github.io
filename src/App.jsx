@@ -38,8 +38,8 @@ I am a microeconomic theorist, and my research focuses on matching theory and th
       {
         title: "Career Concern Model with Voluntary Information Disclosure",
         authors: "Haoqi Tong",
-        status: "Working paper, draft available upon request",
-        note: [],
+        status: "Working paper",
+        note: "Draft available upon request",
         abstract: "Abstract: When an educational institution requires voluntary disclosure of test scores, what is the best way for a student to utilize their score? How does this strategic conduct influence the motivation to invest in ability? I study a career-concern model with voluntary disclosure and show that the optimal disclosure rule follows a threshold strategy in equilibrium. This strategic channel reduces incentives to invest in ability at the first stage."
       }
     ],
@@ -178,7 +178,7 @@ function ResearchPage() {
   return (
     <Container>
       <Section title="Research">
-        <h3 className="mb-3 text-base font-semibold tracking-tight">Working Papers / In Progress</h3>
+        <h3 className="mb-3 text-base font-semibold tracking-tight">Working Papers / Work in Progress</h3>
         <div className="space-y-4">
           {DATA.research.working.map((w) => (
             <ResearchItem key={w.title} item={w} />
