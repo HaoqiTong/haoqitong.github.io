@@ -13,7 +13,7 @@ My research focuses on matching theory, school choice, and market design.`,
   addressLines: [
     "Renmin University of China (Tongzhou), School of Economics, Room 514",
   ],
-  cvHref: "/Haoqi_Tong_CV_2025.pdf",
+  cvHref: "/Haoqi_Tong_CV.pdf",
   headshotSrc: "/photo.jpg",
   research: {
     working: [
