@@ -3,17 +3,15 @@ import { HashRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 
 // ===== Site data =====
 const DATA = {
-  name: "Haoqi Tong",
-  role: "PhD Candidate, Department of Economics, Duke University",
-  jobMarket: "I am on the 2025–2026 job market.",
-  bio: `Welcome! My name is Haoqi Tong, and I am a PhD candidate in the Department of Economics at Duke University. I received my M.A. in Economics from Duke University and B.A. in Economics and Finance from Tsinghua University.
+  name: "Haoqi Tong 童昊奇",
+  role: "",
+  jobMarket: "",
+  bio: `Welcome! My name is Haoqi Tong, and I am an Assistant Professor in the School of Economics at Renmin University of China. I received my Ph.D. in Economics from Duke University and my B.A. in Economics and Finance from Tsinghua University.
 
-I am a microeconomic theorist, and my research focuses on matching theory and the economics of education.`,
-  email: "haoqi.tong@duke.edu",
+My research focuses on matching theory, school choice, and market design.`,
+  email: "haoqi.tong@ruc.edu.cn",
   addressLines: [
-    "Duke University Department of Economics",
-    "213 Social Sciences, 419 Chapel Drive",
-    "Durham, NC 27708-0097",
+    "Renmin University of China (Tongzhou), School of Economics, Room 514",
   ],
   cvHref: "/Haoqi_Tong_CV_2025.pdf",
   headshotSrc: "/photo.jpg",
@@ -35,13 +33,6 @@ I am a microeconomic theorist, and my research focuses on matching theory and th
         links: [{ label: "PDF coming soon", href: "javascript:void(0)", comingSoon: true }],
         abstract: "This paper introduces a model of rank order choice in which each individual submits a ranking of alternatives from an unobservable individual-specific consideration set. The rankings obey individual preferences among those alternatives that are considered, but rankings are silent as to those alternatives which are not considered. Sufficient conditions for point identification are provided for a parametric specification of consideration set formation and random utility, leveraging information about individuals' default options. Estimators are then proposed using ranking probabilities for individual options and pairs of options. Monte Carlo simulations demonstrate favorable performance of these moment-based estimators relative to models that use ranking information but do not account for heterogeneity in unobservable consideration set formation."
       },
-      {
-        title: "Career Concern Model with Voluntary Information Disclosure",
-        authors: "Haoqi Tong",
-        status: "Working paper",
-        note: "Draft available upon request",
-        abstract: "Abstract: When an educational institution requires voluntary disclosure of test scores, what is the best way for a student to utilize their score? How does this strategic conduct influence the motivation to invest in ability? I study a career-concern model with voluntary disclosure and show that the optimal disclosure rule follows a threshold strategy in equilibrium. This strategic channel reduces incentives to invest in ability at the first stage."
-      }
     ],
     publications: [
       {
@@ -65,11 +56,6 @@ I am a microeconomic theorist, and my research focuses on matching theory and th
         level: "Undergraduate Core",
         institution: "Duke University",
         term: "Summer 2024",
-        links: [
-          { label: "Syllabus", href: "/Syllabus.pdf" },
-          { label: "Sample Slides", href: "/Lecture 3.pdf" },
-          { label: "Course Evaluations", href: "/ECON 104 Course Evaluations.pdf" },
-        ],
       },
     ],
     ta: [
